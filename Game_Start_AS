@@ -1,0 +1,110 @@
+#Here is the code about the Game start activity (Front)
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameStart"
+    android:background="#126F84">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/LogoApp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="5dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Settings"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="27dp"></ImageView>
+
+    <ImageView
+        android:layout_width="552dp"
+        android:layout_height="642dp"
+        android:background="@drawable/Decors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-71dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Sound"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="27dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/CloverGroup"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="163dp"></ImageView>
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/DiamondGroup"
+    tools:layout_editor_absoluteX="100dp"
+    tools:layout_editor_absoluteY="128dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/HeartGroup"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="199dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/SpadeGroup"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="236dp"></ImageView>
+
+    <Button
+        android:layout_width="232dp"
+        android:layout_height="79dp"
+        android:background="@drawable/PlayButton"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="620dp"></Button>
+
+    <Button
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:background="@drawable/AddButton"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="515dp"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:text="Add a player..."
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="499dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:text="Choose the color..."
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="523dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:text="How many sips..."
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="547dp"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
