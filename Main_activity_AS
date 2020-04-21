@@ -1,0 +1,67 @@
+#here is the code for the main page activity (Front)
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="307dp"
+        android:background="@drawable/BeerApp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="201dp"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Top"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Bottom"
+        android:layout_marginBottom="0dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="672dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Settings"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="27dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Sound"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="27dp"></ImageView>
+
+    <Button
+        android:layout_width="232dp"
+        android:layout_height="79dp"
+        android:background="@drawable/PlayButton"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="550dp"></Button>
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="66dp"
+        android:fontFamily=""
+        android:text="Welcome to the HorseRace
+ Are you ready to drink ?"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
